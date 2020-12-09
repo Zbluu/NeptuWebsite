@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="style/Main.css">
 
     <!-- Social network logos -->
-    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+    <!-- <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet"> -->
+    <link href="fontawesome/css/all.css" rel="stylesheet">
 
     <title>Neptu</title>
 
@@ -20,68 +21,58 @@
   <body>
 
 
-     <img id="SocialNetworksBackground" src="images/SocialNetworksBackground.png">
+    <img id="SocialNetworksBackground" src="images/SocialNetworksBackground.png">
 
 
-     <!-- HEADER -->
-     <div id="HeaderVideoDiv">
+    <!-- HEADER -->
+    <div id="HeaderVideoDiv">
       <img id="HeaderVideo" src="images/HeaderGif.gif" alt="">
+
       <div id="Content">
         <!-- Logo -->
         <img id="HeaderLogo" src="images/NeptuLogo.png" alt="">
 
-        <img id="DecorativeTopBarGameResume" src="images/DecorativeTopBarGray.png">
+        <img id="DecorativeTopBarTitle" src="images/DecorativeTopBarGray.png">
 
-        <div id="GameResumeBackgroundContainer">
-          <div id="GameResumeBackground">
-            <h1 id="GameResume">
-              Neptu is an online video game where exploration, construction,
-              economy and combat combine in an infinite world to create a unique
-              universe.
-              <br><br>
-              Explore and survive in a hostile post-apocalyptic world, battle
-              enemy creatures and players, colonize territories, then build and
-              develop your own villages, join other existing villages, and trade
-              and commerce.
-              <br><br>
-              In Neptu, YOU choose YOUR way to play.
+        <div id="BackgroundContainerTitle">
+          <div id="BackgroundTitle">
+            <h1 id="TextTitle">
+              Have you ever feared the moon?
+              <br>
+              Maybe you should.
             </h1>
           </div>
         </div>
 
-        <img id="DecorativeBottomBarGameResume" src="images/DecorativeBottomBarDark+.png">
+        <img id="DecorativeBottomBarTitle" src="images/DecorativeBottomBarDark+.png">
 
         <!-- SOCIAL NETWORKS -->
         <div id="ContactDiv">
 
-        <!-- Newsletter -->
-        <div id="NewsletterDiv">
-          <h1 id="SubscribeTitle">Subscribe to the newsletter to receive news and updates.</h1>
-          <form>
-            <div class="form-group">
-              <input type="email" class="form-control" id="SubscribeEmail" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">Your email will never share with anyone else.</small>
-            </div>
-            <button type="submit" class="btn btn-primary SubmitButton">Submit</button>
-          </form>
-        </div>
-
-        <!-- Social networks text -->
-        <div class="row">
-          <div class="col-5 ColWithoutPadding align-middle">
-            <h1 class="align-middle" id="DiscordText">Join the <span class="ColoredText">Discord</span> community to be part of the adventure!</h1>
+          <!-- Newsletter -->
+          <div id="NewsletterDiv">
+            <h1 id="SubscribeTitle">Subscribe to the newsletter to receive news and updates.</h1>
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="SubscribeEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">Your email will never share with anyone else.</small>
+              </div>
+              <button type="submit" class="btn btn-primary SubmitButton">Submit</button>
+            </form>
           </div>
-          <div class="col-7 ColWithoutPadding align-middle">
-            <h1 id="SocialNetworksText">And follow <span class="ColoredText">@NeptuGame</span> on other social networks! </h1>
-          </div>
-        </div>
 
-        <!-- Social network buttons -->
-        <div class="effect thurio">
-          <div class="buttons">
-            <a href="#" class="vimeo" title="Join us on Discord"><i class="fab fa-discord" aria-hidden="true"></i></a>
+          <h1 class="align-middle" id="DiscordText">
+            Join the <span class="ColoredText">Discord</span> to be part of the adventure
+            & follow <span class="ColoredText">@NeptuGame</span>!
+          </h1>
 
-            <div id="Separator"></div>
+
+          <!-- Social network buttons -->
+          <div class="effect thurio">
+            <div class="buttons">
+              <a href="#" class="vimeo" title="Join us on Discord"><i class="fab fa-discord" aria-hidden="true"></i></a>
+
+              <div id="Separator"></div>
 
               <a href="#" class="fb" title="Join us on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
               <a href="#" class="tw" title="Join us on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
@@ -91,6 +82,78 @@
             </div>
           </div>
         </div>
+
+        <div id="DivGameResume">
+          <img id="ImageGameResume" src="images/HeaderGif.gif" alt="">
+
+          <div id="ContentGameResume">
+            <img id="DecorativeTopBarGameResume" src="images/DecorativeTopBarGray.png">
+            <div id="BackgroundContainerGameResult">
+              <div id="BackgroundGameResume">
+                <h1 id="TextGameResume">
+                  Neptu is an online video game where exploration, construction,
+                  economy and combat combine in an infinite world to create a unique
+                  universe.
+                  <br><br>
+                  Explore and survive in a hostile post-apocalyptic world, battle
+                  enemy creatures and players, colonize territories, then build and
+                  develop your own villages, join other existing villages, and trade
+                  and commerce.
+                  <br><br>
+                  In Neptu, YOU choose YOUR way to play.
+                </h1>
+              </div>
+            </div>
+            <img id="DecorativeBottomBarGameResume" src="images/DecorativeBottomBarDark+.png">
+          </div>
+        </div>
+
+
+        <!-- Game Aspects -->
+        <div class="DivGameAspect">
+          <img class="LogoGameAspect" src="images/LogoCompass.png">
+          <h1 class="TitleGameAspect">EXPLORE</h1>
+          <h1 class="TextGameAspect">
+            Travel to a post-apocalyptic and infinite world where exploration
+            is the key. Explore different regions to harvest resources, and
+            find places of interest that can make you rich or bring you
+            knowledge. But beware, the environment can be hostile...
+          </h1>
+        </div>
+
+        <div class="DivGameAspect">
+          <img class="LogoGameAspect" src="images/LogoSwords.png">
+          <h1 class="TitleGameAspect">FIGHT</h1>
+          <h1 class="TextGameAspect">
+            Confront lurking dangers, track down your enemies and hunt for
+            survival. But be careful that the hunter does not become the
+            hunted...
+          </h1>
+        </div>
+
+        <div class="DivGameAspect">
+          <img class="LogoGameAspect" src="images/LogoCamp.png">
+          <h1 class="TitleGameAspect">BUILD</h1>
+          <h1 class="TextGameAspect">
+            Build and join allied camps and villages to rest, haggle and
+            prepare for your next expedition. Develop your village to make it
+            a well-known landmark for other travelers, and to increase your
+            notoriety at the same time. Build your own house 
+          </h1>
+        </div>
+
+        <div class="DivGameAspect">
+          <img class="LogoGameAspect" src="images/LogoAnvil.png">
+          <h1 class="TitleGameAspect">CRAFT</h1>
+          <h1 class="TextGameAspect">
+            Build and join allied camps and villages to rest, haggle and
+            prepare for your next expedition. Develop your village to make it
+            a well-known landmark for other travelers, and to increase your
+            notoriety at the same time.
+          </h1>
+        </div>
+
+
       </div>
     </div>
 

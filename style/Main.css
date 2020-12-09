@@ -17,12 +17,15 @@ h1 {
   margin: 0;
 }
 
+img {
+  vertical-align: top;
+}
 
 #SocialNetworksBackground {
   position: fixed !important;
-  height: 100%;
   z-index: -1;
   position: absolute;
+  min-width: 100%;
   top: -9999px;
   bottom: -9999px;
   left: -9999px;
@@ -30,10 +33,17 @@ h1 {
   margin: auto;
 }
 
-#HeaderVideoDiv {width:100%; margin:auto; display:block; position: relative;} /* This has been changed */
+#HeaderVideoDiv {
+  width:100%;
+  margin:auto;
+  display:block;
+  position: relative;
+
+}
+
 #HeaderVideo{
   width:100%;
-  height:auto
+  height:auto;
 }
 
 #Content {
@@ -46,53 +56,57 @@ h1 {
 }
 
 #HeaderLogo{
-  width: 30%;
+  width: 38%;
   height: auto;
 }
 
-#DecorativeTopBarGameResume{
+#DecorativeTopBarTitle{
   z-index: 2;
-  margin-bottom: -3.3%;;
-  width: 60%;
+  margin-bottom: -2.3%;
+  width: 40%;
   padding: 0;
 }
 
-#GameResumeBackgroundContainer{
-  padding: 0 3.4%;
-  width: 60%;
+#BackgroundContainerTitle{
+  padding: 0 2.2%;
+  width: 40%;
   margin: auto;
   z-index: 1;
   opacity: 0.9;
 }
 
-#GameResumeBackground{
+#BackgroundTitle{
   background-color: #434550;
 }
 
-#GameResume{
+#TextTitle{
   text-align: center;
-  font-size: 16px;
+  font-size: 2vw;
   font-weight: 300;
   color: #dddcda;
   width: 100%;
   margin: auto;
-  padding: 40px;
+  padding: 6%;
 }
 
-#DecorativeBottomBarGameResume{
-  width: 20%;
+#DecorativeBottomBarTitle{
+  width: 10%;
   padding: 0;
-  height: 20px;
+  height: 1.2vw;
   opacity: 0.9;
 }
 
 
 #ContactDiv {
   /* background-color: #444; */
-  padding-top: 60px;
+  padding-top: 6%;
 }
 
 /* Subscribe mail */
+#NewsletterDiv{
+  padding-bottom: 40px;
+}
+
 .form-group{
   margin: 0;
   text-align: center;
@@ -114,21 +128,30 @@ h1 {
 }
 
 #SubscribeEmail {
-
+  background-color: #dddcda;
 }
 
 .SubmitButton {
   display: flex;
   margin: auto;
+  background-color: #7289DA;
+  border-color: #7289DA;
+}
+
+.SubmitButton:active, .SubmitButton:hover, .SubmitButton:focus,
+.SubmitButton:visited, .SubmitButton:focus-within, .SubmitButton:focus-visible {
+  background-color: #5769ab !important;
+  border-color: #5769ab !important;
 }
 
 /* Discord */
-#DiscordText, #SocialNetworksText {
+#DiscordText {
   text-align: center;
   font-weight: 400;
   font-size: 14px;
-  max-width: 300px;
+  color: #dddcda;
   margin: auto 0 auto auto;
+  padding-bottom: 10px;
 }
 
 #SocialNetworksText{
@@ -175,10 +198,100 @@ h1 {
 #Separator{
   width: 2px;
   height: 45px;
-  background-color: #fff;
+  background-color: #dddcda;
   margin: 0px 25px 0px 10px;
 }
 
 .ColWithoutPadding {
   padding: 0;
+}
+
+/* Game Resume */
+
+#ContentGameResume {
+  text-align: center;
+  padding-top: 2%;
+}
+
+#DecorativeTopBarGameResume{
+  margin: auto;
+  z-index: 2;
+  margin-bottom: -4.5%;
+  width: 80%;
+  padding: 0;
+  position: relative;
+  display: block;
+}
+
+#BackgroundContainerGameResult{
+  padding: 0 4.6%;
+  width: 80%;
+  margin: auto;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+#BackgroundGameResume{
+  background-color: #434550;
+}
+
+#TextGameResume{
+  text-align: center;
+  font-size: 1.4vw;
+  font-weight: 300;
+  color: #dddcda;
+  width: 100%;
+  margin: auto;
+  padding: 6%;
+}
+
+#DecorativeBottomBarGameResume{
+  width: 10%;
+  padding: 0;
+  height: 1.2vw;
+  opacity: 0.9;
+  margin: auto;
+}
+
+#DivGameResume {
+  padding-top: 2%;
+}
+
+#ImageGameResume {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 34vw;
+  object-fit: cover;
+}
+
+#TextGameResume {
+  /* z-index: 2; */
+}
+
+/* Game Aspects */
+
+.DivGameAspect{
+  text-align: center;
+  padding-top: 8%;
+  color: #dddcda;
+}
+
+.LogoGameAspect{
+  width: 80px;
+}
+
+.TitleGameAspect {
+  letter-spacing: 10px;
+  font-size: 34px;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-left: 20px;
+}
+
+.TextGameAspect {
+  font-weight: 300;
+  font-size: 18px;
+  width: 80%;
+  margin: auto;
 }
