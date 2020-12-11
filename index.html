@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,15 +10,39 @@
     <link rel="stylesheet" href="style/SocialNetworkButtons.css">
     <link rel="stylesheet" href="style/Main.css">
 
+    <!-- Localization -->
+    <link rel="stylesheet" href="localization/en.css">
+    <link rel="stylesheet" href="localization/fr.css">
+
     <!-- Social network logos -->
-    <!-- <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet"> -->
-    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+    <!-- Bootstrap -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+
+    <!-- Gallery plugin -->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+
+    <!-- Gallery -->
+
+
+
+
 
     <title>Neptu</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
   <body>
+
+    <!-- Here we set the localization. -->
+    <script type="text/javascript">
+      document.documentElement.setAttribute('lang', navigator.language);
+    </script>
 
 
     <img id="SocialNetworksBackground" src="images/SocialNetworksBackground.png">
@@ -37,9 +61,6 @@
         <div id="BackgroundContainerTitle">
           <div id="BackgroundTitle">
             <h1 id="TextTitle">
-              Have you ever feared the moon?
-              <br>
-              Maybe you should.
             </h1>
           </div>
         </div>
@@ -50,7 +71,7 @@
         <div id="ContactDiv">
 
           <!-- Newsletter -->
-          <div id="NewsletterDiv">
+          <!-- <div id="NewsletterDiv">
             <h1 id="SubscribeTitle">Subscribe to the newsletter to receive news and updates.</h1>
             <form>
               <div class="form-group">
@@ -59,48 +80,49 @@
               </div>
               <button type="submit" class="btn btn-primary SubmitButton">Submit</button>
             </form>
-          </div>
+          </div> -->
 
-          <h1 class="align-middle" id="DiscordText">
-            Join the <span class="ColoredText">Discord</span> to be part of the adventure
-            & follow <span class="ColoredText">@NeptuGame</span>!
-          </h1>
+          <div id="ContactContentDiv">
+
+            <h1 class="align-middle" id="DiscordText1"></h1>
+            <h1 class="align-middle ColoredText">Discord</h1>
+            <h1 class="align-middle" id="DiscordText2"></h1>
+            <h1 class="align-middle ColoredText">@NeptuGame</h1>
+            <h1 class="align-middle" id="DiscordText3">!</h1>
 
 
-          <!-- Social network buttons -->
-          <div class="effect thurio">
-            <div class="buttons">
-              <a href="#" class="vimeo" title="Join us on Discord"><i class="fab fa-discord" aria-hidden="true"></i></a>
+            <!-- Social network buttons -->
+            <div class="effect thurio">
+              <div class="buttons">
+                <a href="#" class="vimeo" title="Join us on Discord"><i class="fab fa-discord" aria-hidden="true"></i></a>
 
-              <div id="Separator"></div>
+                <div id="Separator"></div>
 
-              <a href="#" class="fb" title="Join us on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-              <a href="#" class="tw" title="Join us on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-              <a href="#" class="insta" title="Join us on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-              <a href="#" class="g-plus" title="Join us on Youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-              <a href="#" class="dribbble" title="Join us on Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i></a>
+                <a href="#" class="fb" title="Join us on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                <a href="#" class="tw" title="Join us on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" class="insta" title="Join us on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="#" class="g-plus" title="Join us on Youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                <a href="#" class="dribbble" title="Join us on Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i></a>
+              </div>
             </div>
           </div>
+
+          <img id="TopGradient" src="images/DecorativeBottomBarWhite.png">
+
+
+
         </div>
 
+        <!-- Game Resume -->
         <div id="DivGameResume">
-          <img id="ImageGameResume" src="images/HeaderGif.gif" alt="">
+          <!-- <img id="ImageGameResume" src="images/HeaderGif.gif" alt=""> -->
 
           <div id="ContentGameResume">
             <img id="DecorativeTopBarGameResume" src="images/DecorativeTopBarGray.png">
             <div id="BackgroundContainerGameResult">
               <div id="BackgroundGameResume">
                 <h1 id="TextGameResume">
-                  Neptu is an online video game where exploration, construction,
-                  economy and combat combine in an infinite world to create a unique
-                  universe.
-                  <br><br>
-                  Explore and survive in a hostile post-apocalyptic world, battle
-                  enemy creatures and players, colonize territories, then build and
-                  develop your own villages, join other existing villages, and trade
-                  and commerce.
-                  <br><br>
-                  In Neptu, YOU choose YOUR way to play.
+
                 </h1>
               </div>
             </div>
@@ -109,84 +131,87 @@
         </div>
 
 
+        <!-- Gallery -->
+        <div class="container">
+          <div class="row">
+            <a href="images/HeaderGif.gif" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="images/HeaderGif.gif" class="img-fluid rounded">
+            </a>
+            <a href="images/HeaderGif.gif" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="images/HeaderGif.gif" class="img-fluid rounded">
+            </a>
+            <a href="images/HeaderGif.gif" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="images/HeaderGif.gif" class="img-fluid rounded">
+            </a>
+          </div>
+          <div class="row">
+            <a href="images/HeaderGif.gif" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="images/HeaderGif.gif" class="img-fluid rounded">
+            </a>
+            <a href="images/HeaderGif.gif" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="images/HeaderGif.gif" class="img-fluid rounded">
+            </a>
+            <a href="images/HeaderGif.gif" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+              <img src="images/HeaderGif.gif" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+
         <!-- Game Aspects -->
         <div class="DivGameAspect">
           <img class="LogoGameAspect" src="images/LogoCompass.png">
-          <h1 class="TitleGameAspect">EXPLORE</h1>
-          <h1 class="TextGameAspect">
-            Travel to a post-apocalyptic and infinite world where exploration
-            is the key. Explore different regions to harvest resources, and
-            find places of interest that can make you rich or bring you
-            knowledge. But beware, the environment can be hostile...
-          </h1>
+          <h1 id="GameAspect1Title" class="TitleGameAspect"></h1>
+          <h1 id="GameAspect1Text" class="TextGameAspect"></h1>
         </div>
 
         <div class="DivGameAspect">
           <img class="LogoGameAspect" src="images/LogoSwords.png">
-          <h1 class="TitleGameAspect">FIGHT</h1>
-          <h1 class="TextGameAspect">
-            Confront lurking dangers, track down your enemies and hunt for
-            survival. Group up with other players to defeat the most dangerous
-            creatures! But be careful that the hunter does not become the
-            hunted...
-          </h1>
+          <h1 id="GameAspect2Title" class="TitleGameAspect"></h1>
+          <h1 id="GameAspect2Text" class="TextGameAspect"></h1>
         </div>
 
         <div class="DivGameAspect">
           <img class="LogoGameAspect" src="images/LogoCamp.png">
-          <h1 class="TitleGameAspect">BUILD</h1>
-          <h1 class="TextGameAspect">
-            Build and join allied camps and villages to rest, haggle and
-            prepare for your next expedition. Develop your village to make it
-            a well-known landmark for other travelers, and to increase your
-            notoriety at the same time. Build your own house, make it pretty
-            and store your resources in it.
-          </h1>
+          <h1 id="GameAspect3Title" class="TitleGameAspect"></h1>
+          <h1 id="GameAspect3Text" class="TextGameAspect"></h1>
         </div>
 
         <div class="DivGameAspect">
           <img class="LogoGameAspect" src="images/LogoAnvil.png">
-          <h1 class="TitleGameAspect">CRAFT</h1>
-          <h1 class="TextGameAspect">
-            Use your skills to create the perfect stuff for your next
-            expedition and gain experience in order to craft better items!
-            Forge, cook, hunt, harvest and manufacture from the resources you
-            collect and maybe your reputation will bring you customers...
-          </h1>
+          <h1 id="GameAspect4Title" class="TitleGameAspect"></h1>
+          <h1 id="GameAspect4Text" class="TextGameAspect"></h1>
         </div>
 
         <div class="DivGameAspect">
           <img class="LogoGameAspect" src="images/LogoTrade.png">
-          <h1 class="TitleGameAspect">TRADE</h1>
-          <h1 class="TextGameAspect">
-            Go to the villages to exchange your rarest resources or buy those
-            of other adventurers. Travel from village to village to buy and
-            resell more prized resources. But beware not to lose your
-            merchandise, or to lose yourself...
-          </h1>
+          <h1 id="GameAspect5Title" class="TitleGameAspect"></h1>
+          <h1 id="GameAspect5Text" class="TextGameAspect"></h1>
         </div>
 
 
         <div id="DivFooter">
           <h1 id="FooterMail">Contact : contact@neptu-game.com</h1>
 
-          <h1 id="FooterCopyright">
-            Neptu, trademarked by Alexandre Depail.
-            <br>
-            Copyright © 2020 Neptu. All rights reserved.
-          </h1>
+          <h1 id="FooterCopyright"></h1>
         </div>
 
       </div>
     </div>
 
-    <br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+    <script type="text/javascript">
+       $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+           event.preventDefault();
+           $(this).ekkoLightbox({
+               alwaysShowClose: true
+           });
+       });
+    </script>
+
   </body>
 </html>

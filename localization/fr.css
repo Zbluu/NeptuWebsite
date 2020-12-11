@@ -1,0 +1,62 @@
+#TextTitle:lang(fr)::before  {
+  /* white-space:pre; */
+  content: "As-tu déjà eu peur de la lune ?";
+}
+
+#DiscordText1:lang(fr)::before  {
+  content: "Rejoins le";
+}
+
+#DiscordText2:lang(fr)::before  {
+  content: "pour prendre part à l'aventure & follow";
+}
+
+#TextGameResume:lang(fr)::before {
+  white-space: pre-wrap;
+  content: "Neptu est un jeu en ligne multijoueur où exploration, construction, économie et combat s’allient dans un monde infini pour créer un univers unique.\A\A Explorez et survivez dans un monde post-apocalyptique hostile, combattez les créatures et joueurs ennemis, colonisez des territoires puis bâtissez et développez vos propres villes, rejoignez d’autres villes déjà existantes, échangez et commercez.\A\A Dans Neptu, VOUS choisissez VOTRE façon de jouer.";
+}
+
+#GameAspect1Title:lang(fr)::before {
+  content: "EXPLOREZ";
+}
+
+#GameAspect1Text:lang(fr)::before {
+  content: "Voyagez dans un monde post-apocalyptique infini où l'exploration est la clé. Explorez differentes régions pour collecter des ressources, et trouver des lieux d'intérêts qui pourraient vous rendre riche ou vous apporter le savoir. Mais attention, l'environnement peut se montrer hostile...";
+}
+
+#GameAspect2Title:lang(fr)::before {
+  content: "COMBATTEZ";
+}
+
+#GameAspect2Text:lang(fr)::before {
+  content: "Confrontez les dangers, traquez vos ennemis et chassez pour survivre. Faites équipe avec d'autres joueurs pour venir à bout des créatures les plus dangereuses ! Mais attention à ce que le chasseur ne devienne pas le chassé...";
+}
+
+#GameAspect3Title:lang(fr)::before {
+  content: "CONSTRUISEZ";
+}
+
+#GameAspect3Text:lang(fr)::before {
+  content: "Construisez et rejoignez des camps et villages alliés pour vous reposer, marchander et vous préparer pour votre prochaine expédition. Développez votre village pour en faire un lieu incontournable pour les autres voyageurs, et pour augmenter votre notoriété en même temps. Bâtissez votre propre maison avec votre style et vos besoins.";
+}
+
+#GameAspect4Title:lang(fr)::before {
+  content: "FABRIQUEZ";
+}
+
+#GameAspect4Text:lang(fr)::before {
+  content: "Utilisez vos compétences pour créer l'équipement parfait pour votre prochaine expédition et gagnez de l'expérience afin de fabriquer de meilleurs objets ! Forgez, cuisinez, chassez, récoltez, et peut être que votre réputation attirera d'autres aventuriers...";
+}
+
+#GameAspect5Title:lang(fr)::before {
+  content: "COMMERCEZ";
+}
+
+#GameAspect5Text:lang(fr)::before {
+  content: "Rendez-vous dans les villages pour échangez vos plus précieuses ressources ou acheter celles des autres aventuriers. Voyagez de villages en villages en achetant et revendant les ressources les plus prisés du coin. Mais attention à ne pas perdre votre marchandise sur la route, ou même de vous perdre vous-même...";
+}
+
+#FooterCopyright:lang(fr)::before {
+  white-space: pre-wrap;
+  content: "Neptu, marque déposée par Alexandre Depail.\A Copyright © 2020 Neptu. Tous droits réservés."
+}

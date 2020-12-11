@@ -1,0 +1,62 @@
+#TextTitle::before  {
+  /* white-space:pre; */
+  content: "Have you ever feared the moon?";
+}
+
+#DiscordText1::before  {
+  content: "Join the";
+}
+
+#DiscordText2::before  {
+  content: "to be part of the adventure & follow";
+}
+
+#TextGameResume::before {
+  white-space: pre-wrap;
+  content: "Neptu is a multiplayer online video game where exploration, construction, economy and combat combine in an infinite world to create a unique universe.\A\A Explore and survive in a hostile post-apocalyptic world, battle enemy creatures and players, colonize territories, then build and develop your own villages, join other existing villages, and trade and commerce.\A\A In Neptu, YOU choose YOUR way to play.";
+}
+
+#GameAspect1Title::before {
+  content: "EXPLORE";
+}
+
+#GameAspect1Text::before {
+  content: "Travel to an infinite post-apocalyptic world where exploration is the key. Explore different regions to collect resources, and find places of interest that could make you rich or bring you knowledge. But beware, the environment can be hostile...";
+}
+
+#GameAspect2Title::before {
+  content: "FIGHT";
+}
+
+#GameAspect2Text::before {
+  content: "Confront danger, track down your enemies and hunt for survival. Team up with other players to defeat the most dangerous creatures! But be careful that the hunter does not become the hunted...";
+}
+
+#GameAspect3Title::before {
+  content: "BUILD";
+}
+
+#GameAspect3Text::before {
+  content: "Build and join allied camps and villages to rest, haggle and prepare for your next expedition. Expand your village to make it a must-see place for other travelers, and to increase your notoriety at the same time. Build your own home with your own style and needs.";
+}
+
+#GameAspect4Title::before {
+  content: "CRAFT";
+}
+
+#GameAspect4Text::before {
+  content: "Use your skills to create the perfect stuff for your next expedition and gain experience to make better items! Forge, cook, hunt, harvest, and maybe your reputation will attract other adventurers...";
+}
+
+#GameAspect5Title::before {
+  content: "TRADE";
+}
+
+#GameAspect5Text::before {
+  content: "Visit the villages to exchange your most precious resources or buy those of other adventurers. Travel from village to village buying and selling the most prized resources in the area. But be careful not to lose your merchandise on the road, or even lose yourself...";
+}
+
+#FooterCopyright:lang(fr)::before {
+  white-space: pre-wrap;
+  content: "Neptu, trademarked by Alexandre Depail.\A Copyright © 2020 Neptu. All rights reserved."
+}
