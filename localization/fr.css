@@ -13,7 +13,9 @@
 
 #TextGameResume:lang(fr)::before {
   white-space: pre-wrap;
-  content: "Neptu est un jeu en ligne multijoueur où exploration, construction, économie et combat s’allient dans un monde infini pour créer un univers unique.\A\A Explorez et survivez dans un monde post-apocalyptique hostile, combattez les créatures et joueurs ennemis, colonisez des territoires puis bâtissez et développez vos propres villes, rejoignez d’autres villes déjà existantes, échangez et commercez.\A\A Dans Neptu, VOUS choisissez VOTRE façon de jouer.";
+  /* content: "Neptu est un jeu en ligne multijoueur où exploration, construction, économie et combat s’allient dans un monde infini et unique.\A\A Explorez et survivez dans un monde post-apocalyptique hostile. Combattez les créatures et joueurs ennemis, colonisez des territoires puis bâtissez et développez vos propres villes, rejoignez d’autres villes déjà existantes, échangez et commercez.\A\A Dans Neptu, VOUS choisissez VOTRE façon de jouer."; */
+
+  content: "Neptu est un jeu en ligne multijoueur où VOUS choisissez VOTRE façon de jouer. Entre exploration, construction, combat et commerce, tout est possible et rien n'est interdit. Jeu en cours de dévloppement, n'hésitez pas à suivre";
 }
 
 #GameAspect1Title:lang(fr)::before {
@@ -21,7 +23,7 @@
 }
 
 #GameAspect1Text:lang(fr)::before {
-  content: "Voyagez dans un monde post-apocalyptique infini où l'exploration est la clé. Explorez differentes régions pour collecter des ressources, et trouver des lieux d'intérêts qui pourraient vous rendre riche ou vous apporter le savoir. Mais attention, l'environnement peut se montrer hostile...";
+  content: "Explorez un monde post-apocalyptique infini. Voyagez dans differentes régions pour collecter diverses ressources, et trouver des lieux d'intérêts qui pourraient vous apporter richesse et savoir. Mais attention, l'environnement pourrait se montrer hostile...";
 }
 
 #GameAspect2Title:lang(fr)::before {
@@ -29,7 +31,7 @@
 }
 
 #GameAspect2Text:lang(fr)::before {
-  content: "Confrontez les dangers, traquez vos ennemis et chassez pour survivre. Faites équipe avec d'autres joueurs pour venir à bout des créatures les plus dangereuses ! Mais attention à ce que le chasseur ne devienne pas le chassé...";
+  content: "Confrontez les dangers, traquez vos ennemis et chassez pour survivre. Alliez vos forces avec d'autres joueurs pour vaincre les créatures les plus dangereuses ! Mais attention à ce que le chasseur ne devienne pas le chassé...";
 }
 
 #GameAspect3Title:lang(fr)::before {
@@ -37,7 +39,7 @@
 }
 
 #GameAspect3Text:lang(fr)::before {
-  content: "Construisez et rejoignez des camps et villages alliés pour vous reposer, marchander et vous préparer pour votre prochaine expédition. Développez votre village pour en faire un lieu incontournable pour les autres voyageurs, et pour augmenter votre notoriété en même temps. Bâtissez votre propre maison avec votre style et vos besoins.";
+  content: "Construisez et rejoignez des camps et villages alliés pour vous reposer, marchander et vous préparer pour votre prochaine expédition. Augmentez votre notoriété en développant votre village pour en faire un lieu incontournable pour les autres voyageurs. Bâtissez votre maison à votre image et adaptez-la à vos besoins.";
 }
 
 #GameAspect4Title:lang(fr)::before {
@@ -45,7 +47,8 @@
 }
 
 #GameAspect4Text:lang(fr)::before {
-  content: "Utilisez vos compétences pour créer l'équipement parfait pour votre prochaine expédition et gagnez de l'expérience afin de fabriquer de meilleurs objets ! Forgez, cuisinez, chassez, récoltez, et peut être que votre réputation attirera d'autres aventuriers...";
+  /* content: "Utilisez vos compétences pour créer l'équipement parfait pour votre prochaine expédition et gagnez de l'expérience afin de fabriquer de meilleurs objets ! Forgez, cuisinez, chassez, récoltez... Choisissez votre ou vos spécialités et développez vos compétences pour espérer devenir un expert dans votre "; */
+  content: "Utilisez vos ressources pour créer l'équipement parfait pour votre prochaine expédition. Forgez, cuisinez, chassez, récoltez... Choisissez votre ou vos spécialités et développez vos compétences pour espérer devenir un expert reconnu dans votre domaine.";
 }
 
 #GameAspect5Title:lang(fr)::before {
@@ -53,7 +56,7 @@
 }
 
 #GameAspect5Text:lang(fr)::before {
-  content: "Rendez-vous dans les villages pour échangez vos plus précieuses ressources ou acheter celles des autres aventuriers. Voyagez de villages en villages en achetant et revendant les ressources les plus prisés du coin. Mais attention à ne pas perdre votre marchandise sur la route, ou même de vous perdre vous-même...";
+  content: "Visitez les villages voisins pour échangez vos plus précieuses ressources ou acheter celles des autres aventuriers. Devenez un commerçant itinérant et sachez reconnaitre les ressources les plus prisées de la région pour les revendre ailleurs au plus offrant. Mais prenez garde à ne pas perdre votre marchandise sur la route, et gardez le cap afin de ne pas vous perdre vous-même...";
 }
 
 #FooterCopyright:lang(fr)::before {

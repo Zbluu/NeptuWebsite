@@ -284,6 +284,7 @@ img {
 
 #TextGameResume {
   /* z-index: 2; */
+  line-height: 1.4rem;
 }
 
 /* Gallery */
@@ -350,6 +351,7 @@ img {
   font-size: 18px;
   width: 80%;
   margin: auto;
+  line-height: 1.6rem;
 }
 
 /* Footer */
