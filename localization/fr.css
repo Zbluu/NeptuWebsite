@@ -15,7 +15,12 @@
   white-space: pre-wrap;
   /* content: "Neptu est un jeu en ligne multijoueur où exploration, construction, économie et combat s’allient dans un monde infini et unique.\A\A Explorez et survivez dans un monde post-apocalyptique hostile. Combattez les créatures et joueurs ennemis, colonisez des territoires puis bâtissez et développez vos propres villes, rejoignez d’autres villes déjà existantes, échangez et commercez.\A\A Dans Neptu, VOUS choisissez VOTRE façon de jouer."; */
 
-  content: "Neptu est un jeu en ligne multijoueur où VOUS choisissez VOTRE façon de jouer. Entre exploration, construction, combat et commerce, tout est possible et rien n'est interdit. Jeu en cours de dévloppement, n'hésitez pas à suivre";
+  content: "Neptu est un jeu en ligne multijoueur où VOUS choisissez VOTRE façon de jouer. Entre exploration, construction, combat et commerce, tout est possible et rien n'est interdit. \A\A Jeu en cours de développement, rendez-vous sur les réseaux sociaux pour suivre l'avancée du projet !";
+}
+
+#TextGameProgress:lang(fr)::before {
+  /* white-space: pre-wrap; */
+  content: "Objectif : financement participatif courant 2021.";
 }
 
 #GameAspect1Title:lang(fr)::before {
@@ -23,7 +28,7 @@
 }
 
 #GameAspect1Text:lang(fr)::before {
-  content: "Explorez un monde post-apocalyptique infini. Voyagez dans differentes régions pour collecter diverses ressources, et trouver des lieux d'intérêts qui pourraient vous apporter richesse et savoir. Mais attention, l'environnement pourrait se montrer hostile...";
+  content: "Explorez un monde post-apocalyptique infini. Voyagez dans différentes régions pour collecter diverses ressources, et trouver des lieux d'intérêts qui pourraient vous apporter richesse et savoir. Mais attention, l'environnement pourrait se montrer hostile...";
 }
 
 #GameAspect2Title:lang(fr)::before {

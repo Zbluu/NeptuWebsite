@@ -13,7 +13,11 @@
 
 #TextGameResume::before {
   white-space: pre-wrap;
-  content: "Neptu is a multiplayer online video game where exploration, construction, economy and combat combine in an infinite world to create a unique universe.\A\A Explore and survive in a hostile post-apocalyptic world, battle enemy creatures and players, colonize territories, then build and develop your own villages, join other existing villages, and trade and commerce.\A\A In Neptu, YOU choose YOUR way to play.";
+  content: "Neptu is a multiplayer online game where YOU choose YOUR way to play. Between exploration, construction, combat and trade, everything is possible and nothing is forbidden. \A\A Game under development, go on social networks to follow the progress of the project!";
+}
+
+#TextGameProgress::before {
+  content: "Objective: crowdfunding planned in 2021.";
 }
 
 #GameAspect1Title::before {
@@ -21,7 +25,7 @@
 }
 
 #GameAspect1Text::before {
-  content: "Travel to an infinite post-apocalyptic world where exploration is the key. Explore different regions to collect resources, and find places of interest that could make you rich or bring you knowledge. But beware, the environment can be hostile...";
+  content: "Explore an infinite post-apocalyptic world. Travel to different regions to collect various resources, and find places of interest that could bring you wealth and knowledge. But beware, the environment could be hostile...";
 }
 
 #GameAspect2Title::before {
@@ -29,7 +33,7 @@
 }
 
 #GameAspect2Text::before {
-  content: "Confront danger, track down your enemies and hunt for survival. Team up with other players to defeat the most dangerous creatures! But be careful that the hunter does not become the hunted...";
+  content: "Confront danger, track down your enemies and hunt for survival. Join forces with other players to defeat the most dangerous creatures! But be careful that the hunter does not become the hunted...";
 }
 
 #GameAspect3Title::before {
@@ -37,7 +41,7 @@
 }
 
 #GameAspect3Text::before {
-  content: "Build and join allied camps and villages to rest, haggle and prepare for your next expedition. Expand your village to make it a must-see place for other travelers, and to increase your notoriety at the same time. Build your own home with your own style and needs.";
+  content: "Build and join allied camps and villages to rest, haggle and prepare for your next expedition. Increase your notoriety by developing your village to make it a must-see place for other travelers. Build your home in your own image and adapt it to your needs.";
 }
 
 #GameAspect4Title::before {
@@ -45,7 +49,7 @@
 }
 
 #GameAspect4Text::before {
-  content: "Use your skills to create the perfect stuff for your next expedition and gain experience to make better items! Forge, cook, hunt, harvest, and maybe your reputation will attract other adventurers...";
+  content: "Use your resources to create the perfect equipment for your next expedition. Forge, cook, hunt, harvest... Choose your specialty or specialties and develop your skills to become a recognized expert in your field.";
 }
 
 #GameAspect5Title::before {
@@ -53,7 +57,7 @@
 }
 
 #GameAspect5Text::before {
-  content: "Visit the villages to exchange your most precious resources or buy those of other adventurers. Travel from village to village buying and selling the most prized resources in the area. But be careful not to lose your merchandise on the road, or even lose yourself...";
+  content: "Visit neighboring villages to trade your most valuable resources or buy those of other adventurers. Become an itinerant trader and know how to recognize the most prized resources in the region and sell them elsewhere to the highest bidder. But be careful not to lose your merchandise on the road, and stay the course so you don't lose yourself...";
 }
 
 #FooterCopyright:lang(fr)::before {

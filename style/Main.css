@@ -111,6 +111,11 @@ img {
   width: 100%;
   text-align: center;
   padding-bottom: 2%;
+  margin: auto;
+}
+
+#ContactTextDiv {
+
 }
 
 #TopGradient {
@@ -212,9 +217,8 @@ img {
 
 #Separator{
   width: 2px;
-  height: 45px;
   background-color: #434550;
-  margin: 0px 25px 0px 10px;
+  margin: 0px 4% 0px 2%;
 }
 
 .ColWithoutPadding {
@@ -251,14 +255,22 @@ img {
   background-color: #43455066;
 }
 
-#TextGameResume{
+#TextGameResume, #TextGameProgress{
   text-align: left;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 4vw, 1.2rem);
   font-weight: 300;
   color: #dddcda;
   width: 100%;
   margin: auto;
   padding: 6%;
+  line-height: 1.4rem;
+  padding-bottom: 2%;
+}
+
+#TextGameProgress {
+  color: #9c9c9c;
+  padding-top: clamp(1rem, 10vw, 2%);
+  padding-bottom: 6%;
 }
 
 #DecorativeBottomBarGameResume{
@@ -282,10 +294,6 @@ img {
   margin-top: -3%;
 }
 
-#TextGameResume {
-  /* z-index: 2; */
-  line-height: 1.4rem;
-}
 
 /* Gallery */
 
@@ -324,7 +332,7 @@ img {
 }
 
 .container .row a {
-  padding: 0.5rem;
+  padding: 1%;
 }
 /* Game Aspects */
 
@@ -340,15 +348,15 @@ img {
 
 .TitleGameAspect {
   letter-spacing: 10px;
-  font-size: 34px;
+  font-size: clamp(16px, 4vw, 3rem);
   padding-bottom: 2%;
   padding-top: 1%;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 .TextGameAspect {
   font-weight: 300;
-  font-size: 18px;
+  font-size: clamp(0.9rem, 4vw, 1.2rem);
   width: 80%;
   margin: auto;
   line-height: 1.6rem;
@@ -358,7 +366,7 @@ img {
 
 #DivFooter {
   background-color: #dddcda;
-  padding: 40px;
+  padding: 40px 6%;
   margin-top: 100px;
   text-align: center;
   width: 100%;

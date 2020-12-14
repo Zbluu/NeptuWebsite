@@ -1,6 +1,6 @@
 /* common styles !!! YOU DON'T NEED THEM */
 .container {
-  margin: 60px auto 0px auto;
+  margin: 4% auto 0px auto;
   text-align: center;
 }
 .container h1 {
@@ -53,7 +53,10 @@
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 40rem;
+  margin: auto;
 }
 
 /* styles for a common effect !!!YOU NEED THEM */
@@ -71,7 +74,7 @@
   -webkit-box-pack: center;
           justify-content: center;
   border-radius: 50%;
-  margin-right: 16px;
+  margin-right: 2%;
   font-size: 18px;
   overflow: hidden;
   position: relative;
@@ -94,6 +97,7 @@
 .effect a i {
   display: inline-block;
   vertical-align: middle;
+  font-size: clamp(0px, 4vw, 22px);
 }
 
 /* lavinia effect */
@@ -146,6 +150,10 @@
 
 /* thurio effect */
 .effect.thurio a {
+  height: 12vw;
+  width: 12vw;
+  max-height: 3rem;
+  max-width: 3rem;
   -webkit-transition: border-radius 0.2s linear 0s;
   transition: border-radius 0.2s linear 0s;
   -webkit-transform: rotate(45deg);
