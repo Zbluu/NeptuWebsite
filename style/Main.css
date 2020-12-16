@@ -257,7 +257,7 @@ img {
 
 #TextGameResume, #TextGameProgress{
   text-align: left;
-  font-size: clamp(0.9rem, 4vw, 1.2rem);
+  font-size: clamp(12px, 4vw, 24px);
   font-weight: 300;
   color: #dddcda;
   width: 100%;
