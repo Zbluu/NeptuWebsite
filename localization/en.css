@@ -60,7 +60,7 @@
   content: "Visit neighboring villages to trade your most valuable resources or buy those of other adventurers. Become an itinerant trader and know how to recognize the most prized resources in the region and sell them elsewhere to the highest bidder. But be careful not to lose your merchandise on the road, and stay the course so you don't lose yourself...";
 }
 
-#FooterCopyright:lang(fr)::before {
+#FooterCopyright::before {
   white-space: pre-wrap;
   content: "Neptu, trademarked by Alexandre Depail.\A Copyright © 2020 Neptu. All rights reserved."
 }
