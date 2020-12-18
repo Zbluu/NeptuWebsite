@@ -72,7 +72,7 @@ img {
   overflow: hidden;
 }
 
-#HeaderVideo {
+#HeaderVideo, #HeaderGif {
   position: relative;
   left: 50%;
   top: 50%;
@@ -397,7 +397,6 @@ img {
 
 .container .row a {
   padding: 1%;
-  margin: auto;
 }
 /* Game Aspects */
 
