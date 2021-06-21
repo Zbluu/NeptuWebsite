@@ -361,6 +361,19 @@ img {
 
 /* Gallery */
 
+iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.separator {
+  background-color: #dddcda;
+  height: 4px;
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 40px;
+}
+
 .modal-content {
   background-color: transparent;
   border: 0;
